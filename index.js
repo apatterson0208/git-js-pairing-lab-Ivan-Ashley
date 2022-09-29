@@ -58,4 +58,13 @@ function triangleArea(height, base){
     let area = (1/2 * (height * base));
     return area; 
 }
-console.log(triangleArea(5,7));
+//console.log(triangleArea(5,7));
+
+function betweenTwentyAndFourty(int){
+    if (int >= 20 && int <= 40){
+        return true;
+    } else {
+        return false;
+    }
+}
+//console.log(betweenTwentyAndFourty(4));
