@@ -29,4 +29,9 @@ function untilNum(int){
         console.log(i);
     }
 }
-untilNum(10);
+//untilNum(10);
+
+function multiply(intOne, intTwo){
+    return intOne*intTwo;
+}
+console.log(multiply(5,4));
