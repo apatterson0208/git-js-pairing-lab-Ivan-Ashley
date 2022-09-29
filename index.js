@@ -53,4 +53,9 @@ function isNegative(int){
         return false;
     }
 }
-console.log(isNegative(3));
+//console.log(isNegative(3));
+function triangleArea(height, base){
+    let area = (1/2 * (height * base));
+    return area; 
+}
+console.log(triangleArea(5,7));
