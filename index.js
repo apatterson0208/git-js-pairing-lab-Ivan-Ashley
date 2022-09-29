@@ -34,4 +34,14 @@ function untilNum(int){
 function multiply(intOne, intTwo){
     return intOne*intTwo;
 }
-console.log(multiply(5,4));
+//console.log(multiply(5,4));
+
+function add(intOne, intTwo){
+    if (intOne === intTwo){
+        return intOne * 3;
+    }
+     else {
+        return intOne+intTwo;
+     }
+}
+console.log(add(5,5));
