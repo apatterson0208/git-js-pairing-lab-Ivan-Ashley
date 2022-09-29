@@ -44,4 +44,13 @@ function add(intOne, intTwo){
         return intOne+intTwo;
      }
 }
-console.log(add(5,5));
+//console.log(add(5,5));
+
+function isNegative(int){
+    if (int < 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isNegative(3));
