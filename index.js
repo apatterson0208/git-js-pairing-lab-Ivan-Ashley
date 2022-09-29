@@ -68,3 +68,8 @@ function betweenTwentyAndFourty(int){
     }
 }
 //console.log(betweenTwentyAndFourty(4));
+
+function largest(intOne, intTwo, intThree){
+    return Math.max(intOne, intTwo, intThree);
+}
+console.log(largest(4, 6, 8));
