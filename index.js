@@ -22,4 +22,11 @@ function mutliplesOfThreeOrFive(){
         }
     }
 }
-mutliplesOfThreeOrFive();
+//mutliplesOfThreeOrFive();
+
+function untilNum(int){
+    for (let i = 1; i <= int; i++) {
+        console.log(i);
+    }
+}
+untilNum(10);
