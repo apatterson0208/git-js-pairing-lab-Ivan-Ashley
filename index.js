@@ -72,4 +72,9 @@ function betweenTwentyAndFourty(int){
 function largest(intOne, intTwo, intThree){
     return Math.max(intOne, intTwo, intThree);
 }
-console.log(largest(4, 6, 8));
+//console.log(largest(4, 6, 8));
+
+function printTime(){
+    console.log(new Date().toLocaleTimeString('en-US'));
+}
+printTime();
